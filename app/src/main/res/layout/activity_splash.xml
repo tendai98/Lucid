@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity">
+
+    <WebView
+        android:id="@+id/splash_render"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#4D9C27B0"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/logo_card_bg"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        app:cardElevation="0dp"
+        app:cardCornerRadius="50dp"
+        app:cardBackgroundColor="#C3EF7BA1"
+        app:layout_constraintVertical_bias="0.48"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_marginTop="40dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/logo_img"
+            android:src="@mipmap/logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/l"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-5dp"
+                android:text="L "
+                android:fontFamily="@raw/pacifico"
+                android:textColor="#3F51B5"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/u"
+                android:text="u "
+                android:fontFamily="@raw/indie"
+                android:textColor="#FFEB3B"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+            <TextView
+                android:id="@+id/c"
+                android:text="C "
+                android:fontFamily="@raw/notable"
+                android:textColor="#E91E63"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+            <TextView
+                android:id="@+id/i"
+                android:text="i "
+                android:fontFamily="@raw/kablamo"
+                android:textColor="#8BC34A"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textSize="40sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/d"
+                android:text="d"
+                android:fontFamily="@raw/cody"
+                android:textStyle="bold"
+                android:textColor="#FF9800"
+                android:textSize="60sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
