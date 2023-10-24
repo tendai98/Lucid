@@ -14,7 +14,7 @@
 - `Getting started with shader programming` - https://www.youtube.com/watch?v=f4s1h2YETNY
 
 ## App Demo
-[![my App demo]](https://www.youtube.com/watch?v=tm-JIWl1koc&ab_channel=Tendai&themeRefresh=1)
+ - `Lucid App Demo` - https://www.youtube.com/watch?v=tm-JIWl1koc&ab_channel=Tendai&themeRefresh=1
 
 ## Table of Contents
 - [Overview](#overview)
